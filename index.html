@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Counter</h1>
+        <textarea id="text-input" placeholder="Write or paste your test here..."></textarea>
+        <button class="clear-btn" onclick="clearText()">Clean text</button>
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Characters</h3>
+                <p id="char-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Characters without spaces</h3>
+                <p id="char-no-spaces-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Words</h3>
+                <p id="word-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Lines</h3>
+                <p id="line-count">0</p>
+            </div>
+        </div>
+    </div>
+    <p>Created by <a style="text-decoration: none; color: rgb(121, 113, 255);" target="_blank" href="https://dev.lesathch.me">Raquel Bonilla</a></p>
+    <script src="script.js"></script>
+</body>
+</html>
+
